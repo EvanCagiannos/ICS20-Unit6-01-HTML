@@ -8,8 +8,8 @@
  * Check service worker.
  */
  if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS20-Unit6-01-HTML/sw.js", {
-    scope: "/ICS20-Unit6-01-HTML/",
+  navigator.serviceWorker.register("/CurrentWeatherPWA/sw.js", {
+    scope: "/CurrentWeatherPWA/",
   })
 }
 
